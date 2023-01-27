@@ -1,6 +1,10 @@
 <?php 
 
-$servername = "localhost";
+//echo "<pre>";
+//print_r($_SERVER);
+//exit();
+
+$servername = $_SERVER['REMOTE_ADDR'];
 $username = "miltonpaiva";
 $password = "senha";
 
